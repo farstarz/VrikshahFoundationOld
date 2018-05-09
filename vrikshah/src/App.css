@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #FFFFFF;
 }
 
 .App-logo {
@@ -18,8 +19,55 @@
   font-size: 1.5em;
 }
 
+.container {
+
+  width: 50%;
+}
+
 .App-intro {
   font-size: large;
+}
+
+.home-item-1 {
+  padding: 10vh;
+  font-family: angelina;
+  src: url(fonts/angelina.TTF);
+  text-align: left;
+  font-size: 12px;
+}
+
+.home-item-2 {
+  padding: 10vh;
+  font-family: angelina;
+  src: url(fonts/angelina.TTF);
+  text-align: center;
+  font-size: 12px;
+}
+
+.about-item-1 {
+  padding: 10vh;
+  font-family: angelina;
+  src: url(fonts/angelina.TTF);
+  text-align: center;
+  font-size: 12px;
+}
+
+.Component-div {
+  height: 100%;
+  /*padding:20px;
+  overflow-y: auto;
+  height: 600px;*/
+}
+
+.Section {
+
+}
+
+ul{
+  background-color:
+}
+li {
+  float: left;
 }
 
 @keyframes App-logo-spin {
