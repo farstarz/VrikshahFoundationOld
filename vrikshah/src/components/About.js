@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../App.css';
+import founder from '../Images/universe_space_nebula_galaxy_3840x2400.jpg'
 //import { Button } from 'reactstrap';
 
 class About extends Component {
@@ -9,7 +10,7 @@ class About extends Component {
             <h4>About</h4>
             <div className="about-item-1">
               <div><h5>Message from the founder</h5>
-                <p><img src="../../Images/About1.jpg" alt="Founder" height="42" width="42" /></p>
+                <p><img src={founder} alt="Founder" height="420" width="420" /></p>
               </div>
               <div className="row">
                 <div className="col-md-4">
