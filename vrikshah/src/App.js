@@ -6,6 +6,7 @@ import TakeAction from './components/TakeAction';
 import Facts from './components/Facts';
 import ContactUs from './components/ContactUs';
 import Navi from './components/Navi';
+import Footer from './components/Footer';
 import './App.css';
 
 class App extends Component {
@@ -18,6 +19,7 @@ class App extends Component {
         <TakeAction className="Component-div" />
         <Facts className="Component-div" />
         <ContactUs className="Component-div" />
+        <Footer className="Component-div" />
 
       </div>
     );
