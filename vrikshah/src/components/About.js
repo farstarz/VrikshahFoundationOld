@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import '../App.css';
-import founder from "../Images/About1.jpg"
+import founder from "../Images/About1.jpg";
+import ScrollableAnchor from 'react-scrollable-anchor';
 //import { Button } from 'reactstrap';
 
 class About extends Component {
     render() {
         return (
-        <div className="container Section" id="about_id">
+        <ScrollableAnchor id="About">
+        <div className="container Section">
             <h4>About</h4>
             <div className="about-item-1">
 
@@ -60,6 +62,7 @@ class About extends Component {
               </div>
             </div>
         </div>
+        </ScrollableAnchor>
         );
     }
 }

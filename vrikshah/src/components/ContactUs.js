@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css';
-import tribute from "../Images/Tribute001.jpg"
+import tribute from "../Images/Tribute001.jpg";
+import ScrollableAnchor from 'react-scrollable-anchor';
 
 {/*class ContactUs extends Component {
     render() {
@@ -51,7 +52,8 @@ class ContactUs extends React.Component {
   }
   render() {
     return (
-    <div className="container Section" id="contactUs_id">
+    <ScrollableAnchor id="ContactUs">
+    <div className="container Section">
       <div className="row">
         <div className="col">
           <div>
@@ -100,6 +102,7 @@ class ContactUs extends React.Component {
         </div>
       </div>
     </div>
+    </ScrollableAnchor>
     );
   }
 }

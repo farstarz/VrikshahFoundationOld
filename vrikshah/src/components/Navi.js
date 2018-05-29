@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css';
 import {Navbar, Nav, NavItem} from 'react-bootstrap';
+import ScrollableAnchor from 'react-scrollable-anchor';
 
 class Navi extends Component {
    render() {
@@ -29,7 +30,7 @@ class Navi extends Component {
                     <div className="nav-menu">
   				  					<ul id="menu-main">
                         <li id="menu-home">
-                          <a href="Home">Home</a>
+                          <a href="#Home">Home</a>
                         </li>
                         <li id="menu-about">
                           <a href="#About">About</a>

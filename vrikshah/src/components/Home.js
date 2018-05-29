@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
+import ScrollableAnchor from 'react-scrollable-anchor';
 
 class Home extends Component {
     render() {
         return (
-        <div className="Home Section container" id="home_id">
+        <ScrollableAnchor id="Home">
+        <div className="Home Section container">
             <div className="home-item-1">
             <div className="row">
               <div className="col">Lorem ipsum
@@ -55,6 +57,7 @@ class Home extends Component {
           </div>
         </div>
         </div>
+        </ScrollableAnchor>
         );
     }
 }

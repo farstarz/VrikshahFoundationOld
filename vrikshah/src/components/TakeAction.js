@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
+import ScrollableAnchor from 'react-scrollable-anchor';
 
 class TakeAction extends Component {
     render() {
         return (
-        <div className="TakeAction container Section" id="takeAction_id">
+        <ScrollableAnchor id="TakeAction">
+        <div className="TakeAction container Section">
           <h1 className="App-intro">
             what can I do ?
           </h1>
@@ -16,6 +18,7 @@ class TakeAction extends Component {
             gihjgh hjg
           </p>
         </div>
+        </ScrollableAnchor>
         );
     }
 }
